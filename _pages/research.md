@@ -17,4 +17,4 @@ author_profile: true
 
 ## In Progress
 
-1. “**Jordanian Parliamentary Elections Data at the Precint Level, 2013-2024**,” with Elizabeth Parker-Magyar (Dataset).
+1. **Jordanian Parliamentary Elections Data at the Precint Level, 2013-2024**, with Elizabeth Parker-Magyar (Dataset).
