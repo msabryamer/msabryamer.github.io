@@ -32,4 +32,5 @@ author_profile: true
 
 ## In Progress
 
-1. **Jordanian Parliamentary Elections Data at the Precinct Level, 2013-2024**, with [Elizabeth Parker-Magyar](https://biffpm.github.io/) (Dataset).
+1. **Aggregation of Unstructured Data with LLMs**, with [Elizabeth Parker-Magyar](https://biffpm.github.io/), [Killian Clarke](https://www.killianclarke.com/), and [Noah Darwich](https://www.noahdarwich.com/).
+2. **Jordanian Parliamentary Elections Data at the Precinct Level, 2013-2024**, with [Elizabeth Parker-Magyar](https://biffpm.github.io/) (Dataset).
