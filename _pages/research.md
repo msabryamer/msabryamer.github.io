@@ -6,9 +6,9 @@ permalink: /research/
 author_profile: true
 ---
 
-## Working Papers
+## Publications
 
-1. **Doing Online Fieldwork on Social Media Platforms in the Arab World: Challenges and Mitigating Strategies** *(Revised & Resubmitted to Middle East Law & Governance)*, with Asmaa Abdelkhalek, [Mazen Hassan](https://scholar.google.com/citations?user=qOlIHPAAAAAJ&hl=en), [Sarah Mansour](https://scholar.google.com/citations?user=tLsMOj0AAAAJ&hl=en) & [Zeyad Kelani](https://www.zeyadkelani.xyz/).
+1. **Doing Online Fieldwork on Social Media Platforms in the Arab World: Challenges and Mitigating Strategies** *(forthcoming)* at *Middle East Law & Governance*, with Asmaa Abdelkhalek, [Mazen Hassan](https://scholar.google.com/citations?user=qOlIHPAAAAAJ&hl=en), [Sarah Mansour](https://scholar.google.com/citations?user=tLsMOj0AAAAJ&hl=en) & [Zeyad Kelani](https://www.zeyadkelani.xyz/).
 
    <details>
      <summary style="cursor: pointer; color: var(--global-link-color); text-decoration: underline; font-size: 0.9em;">Abstract</summary>
@@ -17,7 +17,9 @@ author_profile: true
      </p>
    </details>
 
-2. **Can Individuals Be Inoculated against Fake News: An Experimental Study on a Sample of Egyptian Trend Engagers on X**, with [Mazen Hassan](https://scholar.google.com/citations?user=qOlIHPAAAAAJ&hl=en), Asmaa Abdelkhalek, [Sarah Mansour](https://scholar.google.com/citations?user=tLsMOj0AAAAJ&hl=en) & [Zeyad Kelani](https://www.zeyadkelani.xyz/).
+## Working Papers
+
+1. **Can Individuals Be Inoculated against Fake News: An Experimental Study on a Sample of Egyptian Trend Engagers on X**, with [Mazen Hassan](https://scholar.google.com/citations?user=qOlIHPAAAAAJ&hl=en), Asmaa Abdelkhalek, [Sarah Mansour](https://scholar.google.com/citations?user=tLsMOj0AAAAJ&hl=en) & [Zeyad Kelani](https://www.zeyadkelani.xyz/).
     * Presented at the Oxford CSAE Conference 2026.
     * Accepted for presentation at the Economic Research Forum (ERF) 2026.
     * Presented at the 10th Social Science and Humanities Conference at the Arab Center for Research & Policy Studies 2025.
@@ -34,3 +36,5 @@ author_profile: true
 
 1. **Aggregation of Unstructured Data with LLMs**, with [Elizabeth Parker-Magyar](https://biffpm.github.io/), [Killian Clarke](https://www.killianclarke.com/), and [Noah Darwich](https://www.noahdarwich.com/).
 2. **Jordanian Parliamentary Elections Data at the Precinct Level, 2013-2024**, with [Elizabeth Parker-Magyar](https://biffpm.github.io/) (Dataset).
+3. **AI Publication Bias**, with Bowen Damask and [Jacob Montgomery](https://sites.wustl.edu/montgomery/).
+4. **Anonymity and Survey Compensation Methods**, with [Jacob Montgomery](https://sites.wustl.edu/montgomery/).
