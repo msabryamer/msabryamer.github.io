@@ -20,10 +20,6 @@ author_profile: true
 ## Working Papers
 
 1. **Can Individuals Be Inoculated against Fake News: An Experimental Study on a Sample of Egyptian Trend Engagers on X**, with [Mazen Hassan](https://scholar.google.com/citations?user=qOlIHPAAAAAJ&hl=en), Asmaa Abdelkhalek, [Sarah Mansour](https://scholar.google.com/citations?user=tLsMOj0AAAAJ&hl=en) & [Zeyad Kelani](https://www.zeyadkelani.xyz/).
-    * Presented at the Oxford CSAE Conference 2026.
-    * Accepted for presentation at the Economic Research Forum (ERF) 2026.
-    * Presented at the 10th Social Science and Humanities Conference at the Arab Center for Research & Policy Studies 2025.
-    * Presented at the FEPS-AUC Joint Seminar in Political Science 2025.
 
    <details>
      <summary style="cursor: pointer; color: var(--global-link-color); text-decoration: underline; font-size: 0.9em;">Abstract</summary>
