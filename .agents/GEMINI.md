@@ -40,8 +40,17 @@ The research page has three sections in order:
 - Abstracts use `<details>/<summary>` HTML for collapsible sections
 - Styling uses `var(--global-link-color)` for link colors
 
+## Automatic CV & Website Synchronization
+Whenever changes are made to the website research page (`_pages/research.md`), homepage/bio (`_pages/about.md`), or author links (`_config.yml`):
+- **Automatically synchronize the CV**: Update `files/Mohamed Sabry Amer CV.tex` with corresponding additions, citations, DOIs, or status updates.
+- **Update Timestamp**: Update `Last update: Month DD, YYYY` in `Mohamed Sabry Amer CV.tex` with the current day.
+- **Auto-recompile PDF**: Run `latexmk "Mohamed Sabry Amer CV.tex"` inside `files/` (or `cd files/build && latexmk -g "../Mohamed Sabry Amer CV.tex" && cp "Mohamed Sabry Amer CV.pdf" ../`) so auxiliary files stay in `build/` and the PDF in `files/` is updated immediately.
+- **Vice-versa**: If updates are made to `files/Mohamed Sabry Amer CV.tex`, automatically reflect them on the website pages.
+- **Auxiliary Isolation**: Keep all auxiliary build files inside `files/build/`. Outside `files/build/`, only `Mohamed Sabry Amer CV.tex` and `Mohamed Sabry Amer CV.pdf` should exist.
+
 ## Git & Deployment
 - **Branch**: `master`
 - **Remote**: `origin` → GitHub
 - **Deployment**: GitHub Pages auto-deploys from the `master` branch
 - **Commit style**: Descriptive messages like "Update research and about pages"
+

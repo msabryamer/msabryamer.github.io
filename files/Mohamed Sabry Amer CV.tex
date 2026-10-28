@@ -1,0 +1,242 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[
+    a4paper,
+    left=40mm,
+    right=15mm,
+    top=15mm,
+    bottom=15mm,
+    footskip=7mm,
+    nohead
+]{geometry}
+
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+% Link color matching Parker-Magyar's CV: rgb(0.2, 0.2, 0.8) / #3333cc
+\definecolor{linkcolor}{HTML}{3333CC}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkcolor,
+    urlcolor=linkcolor,
+    citecolor=linkcolor
+}
+
+% Zero parindent and custom parskip
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Page style: Footer with "X of Y" on bottom left
+\makeatletter
+\def\ps@cvpage{%
+  \def\@oddhead{}%
+  \def\@evenhead{}%
+  \def\@oddfoot{\hspace*{-25mm}\makebox[\dimexpr\textwidth+25mm][l]{\thepage\ of \pageref{LastPage}}\hfil}%
+  \def\@evenfoot{\hspace*{-25mm}\makebox[\dimexpr\textwidth+25mm][l]{\thepage\ of \pageref{LastPage}}\hfil}%
+}
+\AtEndDocument{%
+  \immediate\write\@auxout{\string\newlabel{LastPage}{{}{\thepage}{}{}{}}}%
+}
+\makeatother
+
+\pagestyle{cvpage}
+
+% Section command placing title in the left margin without introducing vertical gap depth
+\newcommand{\cvsection}[1]{%
+  \par\vspace{1.8ex}%
+  \noindent\makebox[0pt][r]{\makebox[25mm][l]{\smash{\parbox[t]{24.5mm}{\raggedright\scshape #1}}}}%
+  \ignorespaces
+}
+
+% Compact itemize for standard entries
+\newenvironment{cvitems}{%
+  \begin{itemize}%
+  \setlength{\itemsep}{1pt}%
+  \setlength{\parskip}{0pt}%
+  \setlength{\parsep}{0pt}%
+  \setlength{\topsep}{1.5pt}%
+  \setlength{\partopsep}{0pt}%
+  \setlength{\leftmargin}{15pt}%
+  \setlength{\labelwidth}{8pt}%
+  \setlength{\labelsep}{5pt}%
+}{%
+  \end{itemize}%
+}
+
+\begin{document}
+
+% Header
+\noindent\hspace*{-25mm}\makebox[\dimexpr\textwidth+25mm][s]{%
+  {\large\textbf{Mohamed Sabry Amer}}\hfill{\fontsize{9pt}{11pt}\selectfont\textbf{Last update: October 27, 2026}}%
+}
+\par\vspace{3pt}
+\noindent\hspace*{-25mm}\rule{\dimexpr\textwidth+25mm}{0.4pt}
+\par\vspace{5pt}
+
+% Contact Information
+\cvsection{Contact\\Information}%
+\begin{minipage}[t]{75mm}
+Department of Political Science\\
+Washington University in St. Louis\\
+St. Louis, MO 63130
+\end{minipage}%
+\begin{minipage}[t]{80mm}
+\texttt{Homepage:} \href{https://msabryamer.github.io}{msabryamer.github.io/}\\
+\texttt{E-mail:\phantom{pe}} \href{mailto:sabry@wustl.edu}{sabry@wustl.edu}\\
+\texttt{LinkedIn:\phantom{e}} \href{https://www.linkedin.com/in/mohamed-sabry-amer-128975242/}{in/mohamed-sabry-amer}\\
+\texttt{GitHub:\phantom{pei}} \href{https://github.com/msabryamer}{github.com/msabryamer}
+\end{minipage}
+
+% Education
+\cvsection{Education}%
+\textbf{Washington University in St Louis}, St. Louis, MO \hfill Aug 2026 -- May 2031 (Expected)
+\begin{cvitems}
+    \item Ph.D. in Political Science
+\end{cvitems}
+
+\vspace{0.7ex}
+\textbf{The Philipp University of Marburg}, Marburg, Germany \hfill April 2025 -- Aug 2025
+\begin{cvitems}
+    \item Virtual Exchange Program: Machine Learning for Remote Sensing \& Climatology
+    \item Grade: 14/15 ``Outstanding Achievement''
+\end{cvitems}
+
+\vspace{0.7ex}
+\textbf{Cairo University}, Faculty of Economics \& Political Science, Egypt \hfill Oct 2021 -- July 2025
+\begin{cvitems}
+    \item B.Sc. in Political Science \& Minor in Statistics
+    \item Cumulative GPA: 3.55/4 (Ranked 7\textsuperscript{th} in the Political Science major)
+\end{cvitems}
+
+\vspace{0.7ex}
+\textbf{The University of Chicago}, Chicago, IL \hfill Sep 2023 -- May 2024
+\begin{cvitems}
+    \item Sawiris Scholars Scholarship Program: Data Science \& Quantitative Social Science
+    \item Cumulative GPA: 3.87/4
+\end{cvitems}
+
+% Publications
+\cvsection{Publications}%
+1. ``Doing Online Fieldwork on Social Media Platforms in the Arab World: Challenges and Mitigating Strategies,'' with Asmaa Abdelkhalek, Mazen Hassan, Sarah Mansour \& Zeyad Kelani, \textit{Middle East Law and Governance} (2026): 1--29. \href{https://doi.org/10.1163/18763375-bja10026}{https://doi.org/10.1163/18763375-bja10026}
+
+% Working Papers
+\cvsection{Working\\Papers}%
+1. ``Can Individuals Be Inoculated against Fake News: An Experimental Study on a Sample of Egyptian Trend Engagers on X,'' with Mazen Hassan, Asmaa Abdelkhalek, Sarah Mansour \& Zeyad Kelani
+
+% In Progress
+\cvsection{In Progress}%
+1. ``Aggregation of Unstructured Data with LLMs,'' with \href{https://biffpm.github.io}{Elizabeth Parker-Magyar}, \href{https://www.killianclarke.com/}{Killian Clarke}, and \href{https://www.noahdarwich.com/}{Noah Darwich}
+
+\vspace{0.7ex}
+2. ``Jordanian Parliamentary Elections Data at the Precinct Level, 2013--2024,'' with \href{https://biffpm.github.io}{Elizabeth Parker-Magyar} (Dataset)
+
+\vspace{0.7ex}
+3. ``AI Publication Bias,'' with Bowen Damask and \href{https://sites.wustl.edu/montgomery/}{Jacob Montgomery}
+
+\vspace{0.7ex}
+4. ``Anonymity and Survey Compensation Methods,'' with \href{https://sites.wustl.edu/montgomery/}{Jacob Montgomery}
+
+% Research Experience
+\cvsection{Research\\Experience}%
+\textbf{Abdulatif Jameel Poverty Action Lab (MENA)}, Cairo, EG \hfill September 2025 -- April 2026\\
+\textit{Research Associate}
+\begin{cvitems}
+    \item Contributed to an RCT that aims to maximize the impact of aid for Palestinian refugees
+    \item Developed LLM solutions to automate survey data cleaning tasks and conduct text analysis
+    \item Cleaned, managed, and analyzed large datasets using Stata and Python
+    \item Coordinated with field operations teams to streamline workflows and uphold rigorous data quality standards
+\end{cvitems}
+
+\vspace{0.7ex}
+\textbf{Elizabeth (Biff) Parker-Magyar}, Remote \hfill July 2025 -- Present\\
+\textit{Research Assistant \& Co-author \textbar\ Yale University}
+\begin{cvitems}
+    \item Developed a machine learning model to classify contentious events in a Jordanian events dataset
+    \item Scraped 1M+ news articles from major media outlets in Jordan to construct a reliable textual corpus
+    \item Contributed to data cleaning and validation processes to ensure high-quality model training
+\end{cvitems}
+
+\newpage
+\textbf{Soyoung Lee}, Remote \hfill September 2025 -- October 2025\\
+\textit{Research Assistant \textbar\ Yale University}
+\begin{cvitems}
+    \item Conducted a meta-analysis of how territorial economic value affects support for territorial disputes
+    \item Identified research papers in top journals that match the selection criteria
+    \item Replicated research papers using R to identify the marginal effect of the various variables of interest
+\end{cvitems}
+
+\vspace{0.7ex}
+\textbf{Elizabeth (Biff) Parker-Magyar}, Remote \hfill October 2024 -- July 2025\\
+\textit{Research Assistant \& Co-author \textbar\ Harvard University}
+\begin{cvitems}
+    \item Digitized electoral returns data in Jordan at various levels of aggregation across years using Python
+    \item Developed Python web-scraping scripts using Selenium to automate data collection
+    \item Cleaned and validated datasets to ensure accuracy and reliability
+    \item Managed project data and maintained detailed documentation for workflows and processes
+\end{cvitems}
+
+\vspace{0.7ex}
+\textbf{Molly Offer-Westort}, Chicago, IL \hfill February 2024 -- May 2024\\
+\textit{Research Assistant \textbar\ The University of Chicago}
+\begin{cvitems}
+    \item Analyzed data to uncover trends in Immigration and Customs Enforcement (ICE) detention practices
+    \item Produced a comprehensive report with clear visualizations to effectively communicate key findings
+    \item Engaged with stakeholders at The Legal Aid Society to refine and tailor the analysis to their needs
+\end{cvitems}
+
+% Work Experience
+\cvsection{Work\\Experience}%
+\textbf{The Central Bank of Egypt}, Cairo, EG \hfill August 2024 -- September 2024\\
+\textit{Data Science Intern}
+\begin{cvitems}
+    \item Developed a predictive time-series model to estimate Egypt's GDP using Google Trends as alternative data
+    \item Researched GDP nowcasting case studies from central banks to identify relevant models and data sources
+    \item Executed feature selection and hyperparameter tuning using backtesting to optimize model performance
+    \item Presented research findings and model results to the data science team
+\end{cvitems}
+
+% Grants and Awards (per user prompt: empty with placeholder bullet point)
+\cvsection{Grants and\\Awards}%
+\begin{cvitems}
+    \item \textbf{MAPOR Travel Grant}, \$325, Midwest Association for Political Research, 2026
+\end{cvitems}
+
+% Skills
+\cvsection{Skills}%
+\begin{cvitems}
+    \item \textbf{Programming Languages \& Statistical Software:} Python, R \& Stata
+    \item \textbf{Survey Tools:} Qualtrics, SurveyCTO \& SurveyMonkey
+    \item \textbf{Others:} Git/GitHub, \LaTeX, SQL
+    \item \textbf{Languages:} Arabic (Native), English (Fluent)
+\end{cvitems}
+
+% References
+\cvsection{References}%
+\begin{minipage}[t]{54mm}
+\raggedright
+\textbf{Elizabeth (Biff) Parker-Magyar}\\
+{\small Assistant Professor, Political Science\\
+Yale University\\
++1 (908) 285-2855\\
+\href{mailto:elizabeth.parker-magyar@yale.edu}{elizabeth.parker-magyar@yale.edu}}
+\end{minipage}\hfill
+\begin{minipage}[t]{54mm}
+\raggedright
+\textbf{Molly Offer-Westort}\\
+{\small Assistant Professor, Political Science\\
+The University of Chicago\\
++1 (203) 909-8380\\
+\href{mailto:mollyow@uchicago.edu}{mollyow@uchicago.edu}}
+\end{minipage}\hfill
+\begin{minipage}[t]{44mm}
+\raggedright
+\textbf{Mazen Hassan}\\
+{\small Professor, Political Science\\
+Cairo University\\
++20 100 567 4033\\
+\href{mailto:m.hassan@feps.edu.eg}{m.hassan@feps.edu.eg}}
+\end{minipage}
+
+\end{document}
