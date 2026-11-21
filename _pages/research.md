@@ -8,7 +8,7 @@ author_profile: true
 
 ## Publications
 
-1. **[Doing Online Fieldwork on Social Media Platforms in the Arab World: Challenges and Mitigating Strategies](https://doi.org/10.1163/18763375-bja10026)** at *Middle East Law & Governance*, with Asmaa Abdelkhalek, [Mazen Hassan](https://scholar.google.com/citations?user=qOlIHPAAAAAJ&hl=en), [Sarah Mansour](https://scholar.google.com/citations?user=tLsMOj0AAAAJ&hl=en) & [Zeyad Kelani](https://www.zeyadkelani.xyz/).
+1. Abd El Khalek, Asmaa, **Mohamed Sabry Amer**, [Mazen Hassan](https://scholar.google.com/citations?user=qOlIHPAAAAAJ&hl=en), [Sarah Mansour](https://scholar.google.com/citations?user=tLsMOj0AAAAJ&hl=en) and [Zeyad Kelani](https://www.zeyadkelani.xyz/). 2026. “[Doing Online Fieldwork on Social Media Platforms in the Arab World: Challenges and Mitigating Strategies](https://doi.org/10.1163/18763375-bja10026).” *Middle East Law and Governance*, 1–29.
 
    <details>
      <summary style="cursor: pointer; color: var(--global-link-color); text-decoration: underline; font-size: 0.9em;">Abstract</summary>
