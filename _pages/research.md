@@ -33,4 +33,3 @@ author_profile: true
 1. **Aggregation of Unstructured Data with LLMs**, with [Elizabeth Parker-Magyar](https://biffpm.github.io/), [Killian Clarke](https://www.killianclarke.com/), and [Noah Darwich](https://www.noahdarwich.com/).
 2. **Jordanian Parliamentary Elections Data at the Precinct Level, 2013-2024**, with [Elizabeth Parker-Magyar](https://biffpm.github.io/) (Dataset).
 3. **AI Publication Bias**, with Bowen Damask and [Jacob Montgomery](https://sites.wustl.edu/montgomery/).
-4. **Anonymity and Survey Compensation Methods**, with [Jacob Montgomery](https://sites.wustl.edu/montgomery/).
